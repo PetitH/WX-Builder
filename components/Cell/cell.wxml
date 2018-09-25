@@ -1,0 +1,4 @@
+<!--components/Cell/cell.wxml-->
+<view>
+  <text>cell模板</text>
+</view>
