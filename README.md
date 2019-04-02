@@ -13,5 +13,5 @@
 
 #### 安装教程
 
-1. git clone https://gitee.com/QianShuiDeRuMeng/WX-Builder.git
+1. git clone https://github.com/PetitH/WX-Builder.git
 2. 修改project.config.json里面的appid
