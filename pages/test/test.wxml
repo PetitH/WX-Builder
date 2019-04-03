@@ -1,2 +1,5 @@
 <!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<view class='contain'>
+  <text>Cell组件</text>
+  <cell class="cell" bind:linkFun="_linkFun" title="123" />
+</view>

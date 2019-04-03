@@ -1,1 +1,13 @@
 /* components/Cell/cell.wxss */
+.cellBox {
+  flex: 1;
+  padding: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #333;
+}
+.iconSize{
+ width: 30rpx;
+ height: 30rpx;
+}

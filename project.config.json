@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "xxxxx",
+	"appid": "wx020cd003a4b6104c",
 	"projectname": "WX-Builder",
 	"debugOptions": {
 		"hidedInDevtools": []

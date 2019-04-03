@@ -1,4 +1,5 @@
 <!--components/Cell/cell.wxml-->
-<view>
-  <text>cell模板</text>
+<view class='cellBox'>
+  <text>{{title}}</text>
+  <image bindtap='_linkFun' class='iconSize' src='../../static/icon/icon_right.png'></image>
 </view>

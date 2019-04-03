@@ -13,11 +13,15 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "static/tabBar/icon_homeTabr.png",
+        "selectedIconPath": "static/tabBar/icon_homeTabr_active.png"
       },
       {
         "pagePath": "pages/test/test",
-        "text": "test"
+        "text": "test",
+        "iconPath": "static/tabBar/icon_homeTabr_test.png",
+        "selectedIconPath": "static/tabBar/icon_homeTabr_test_active.png"
       }
     ]
   }
