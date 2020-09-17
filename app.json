@@ -24,5 +24,6 @@
         "selectedIconPath": "static/tabBar/icon_homeTabr_test_active.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

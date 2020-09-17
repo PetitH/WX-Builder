@@ -15,6 +15,22 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
-module.exports = {
-  formatTime: formatTime
+// 判断iPhoneX以上机型
+function checkModel() {
+  let info = '';
+  uni.getSystemInfo({
+    success: function (res) {
+      info = res.model
+    }
+  });
+  if (/iPhone X/i.test(info) || info.search('iPhone 11') != -1 || info.search('iPhone 11 Pro') != -1 || info.search('iPhone 11 Pro Max') != -1) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+export{
+  formatTime,
+  checkModel
 }

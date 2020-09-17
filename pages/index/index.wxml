@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
   <text>welcome WX-Builder</text>
+  <button bindtap="init">测试请求</button>
 </view>
